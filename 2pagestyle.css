@@ -1,0 +1,22 @@
+/*color palette
+#FFFFFF blanc
+#DED5E6 moin blanc
+#B4ACC5 entre blanc et gris
+#837B9C gris clair
+#383851 entre bleu et gris
+#393952 gris
+#9441BD violet clair
+#6A319C violet
+#35184E violet foncé
+*/
+
+
+body{
+  background-color: #FFFFFF;
+}
+.test{
+  background-color: aqua;
+  height: 100px;
+  width: 100px;
+  transition: all ease-in 2s;
+}

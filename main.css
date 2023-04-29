@@ -1,0 +1,156 @@
+/*color palette
+#4152BD bleu clair
+#626262 gris
+#FFFFFF blanc
+#9C949C gris clair
+#51515A gris un peu fonce
+#DEDEE0 blanc un eu fonce couleur de police
+#4F4F4F gris bizzard
+#001062 bleu fonce
+#282830 gris fonce
+*/
+/* Global styles */
+*{
+  margin: 0;
+  padding: 0;
+}
+.box{
+  background-color: #ffffff00;
+  height: 10pc;
+  width: 10pc;
+  z-index: 1;
+  margin-left: 50pc;
+}
+body {
+  background-color: #001062;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Header styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #001062;
+  padding: 10px;
+}
+
+.ee {
+  transform: scaleX(-1);
+  padding: 0;
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  margin-right: 50px;
+  z-index: 1;
+  margin-left: 100pc;
+  margin-top: 2px;
+  height: 7pc;
+  width: 7pc;
+  border-radius: 50px;
+}
+
+.titlee {
+  color: #DEDEE0;
+  position: absolute;
+  z-index: 2;
+  margin-bottom: 10pc;
+  margin-left: 47pc;
+  font-weight: bold;
+  margin-right: 70px;
+  margin-top: 25pc;
+  font-size: 4pc;
+}
+input::placeholder {
+  opacity: 0.5;
+  color: #4F4F4F;
+  font-size: smaller;
+}
+#password {
+  position: absolute;
+  z-index: 100;
+  left: -7pc;
+  width: 30pc;
+  border-radius: 1pc;
+  margin-top: 30pc;
+  height: 3pc;
+  margin-left: 50pc;
+  padding: 5px;
+  font-size: 2pc;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#createpasswordbutton{
+  position: absolute;
+  z-index: 500;
+  margin-left: 40pc;
+}
+
+button {
+  position: absolute;
+  border-radius: 1pc;
+  height: 5pc;
+  width: 15pc;
+  z-index: 500;
+  padding: 5px 10px;
+  font-size: 16px;
+  margin-top: 50pc;
+  align-items: center;
+  background-color:#4152BD ;
+  color: #DEDEE0;
+  border: none;
+  cursor: pointer;
+}
+.loginbut{
+  margin-left: 60pc;
+}
+
+button:hover {
+  background-color:#2072b6;
+}
+
+.treeup{
+ 
+  position: absolute;
+  z-index: 5000000;
+  bottom:57pc;
+  padding: 0;
+  height: 16pc;
+  width: 100%; 
+  transition: bottom 1.3s;
+ 
+}
+
+.square{
+  position: absolute;
+  z-index: 88000000;
+  bottom: 0;
+  background-color: #FFFFFF;
+  height: 0px;
+  width: 100%;
+}
+.squarup{
+  position: absolute;
+  z-index: 88000000;
+  bottom: 0;
+  background-color:#FFFFFF;
+  height: 100%;
+  width: 100%;
+  transition: all 1.3s;
+}
+
+.trees {
+  position: absolute;
+  z-index: 5000000;
+  position:fixed;
+  bottom:0px;
+  padding: 0;
+  height: 16pc;
+  width: 100%;
+}
+
+
+
